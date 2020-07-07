@@ -1,0 +1,136 @@
+import { StyleSheet, Dimensions } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  welcome: {
+    color: '#4856fe',
+    fontSize: 24,
+    fontWeight: 'bold',
+  },
+  hello: {
+    marginTop: 16,
+    color: '#4856fe',
+    fontSize: 16,
+    paddingLeft: '5%',
+    paddingRight: '5%',
+    textAlign: 'left',
+  },
+  notif: {
+    color: 'red',
+    fontSize: 16,
+    marginTop: 16,
+    marginBottom: -16,
+    justifyContent: 'flex-start',
+  },
+  inputName: {
+    height: 40,
+    width: '80%',
+    marginTop: 24,
+    borderWidth: 1,
+    borderColor: '#4856fe',
+    paddingLeft: 8,
+  },
+  buttonStyle: {
+    marginTop: 16,
+    backgroundColor: '#4856fe',
+    padding: 12,
+    width: '80%',
+    borderRadius: 20,
+    alignItems: 'center',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+  },
+  buttonText: {
+    color: 'white',
+    fontSize: 16,
+  },
+  imageProfile: {
+    width: 150,
+    height: 150,
+    marginBottom: 16,
+  },
+  loading: {
+    textAlign: 'center',
+    paddingTop: '50%',
+    fontSize: 30,
+    color: '#4856fe',
+  },
+  title: {
+    color: 'white',
+    fontSize: 24,
+  },
+  containerGame: {
+    flex: 1,
+    backgroundColor: 'white',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  nameGame: {
+    color: '#4856fe',
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginTop: 24,
+    marginBottom: 16,
+    textAlign: 'left',
+  },
+  notifGame: {
+    fontSize: 24,
+    color: 'red',
+    marginBottom: 16,
+  },
+  row: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  zero: {
+    borderWidth: 1,
+    width: Dimensions.get('window').width / 10,
+    height: Dimensions.get('window').width / 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'white',
+    borderColor: '#4856fe',
+  },
+  textInput: {
+    width: '40%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 2,
+    color: '#4856fe',
+  },
+  number: {
+    borderWidth: 1,
+    width: Dimensions.get('window').width / 10,
+    height: Dimensions.get('window').width / 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#24d1ca',
+    borderColor: '#4856fe',
+  },
+  buttonGroup: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  buttonGame: {
+    padding: 10,
+    backgroundColor: '#4856fe',
+    marginLeft: 8,
+    marginRight: 8,
+    width: 96,
+    borderRadius: 20,
+  },
+  btnTextGame: {
+    color: 'white',
+    fontSize: 16,
+    textAlign: 'center',
+  },
+});
+
+export default styles;
